@@ -11,7 +11,7 @@
   &__col {
     flex: 25%;
     max-width: 41%;
-    margin: 2.5% 5% 2.5% 0;
+    margin: 2.5% 3% 2.5% 3.5%;
     align-items: center;
 
     &__profile {
@@ -19,25 +19,27 @@
     }
 
     &__title {
+      margin-top: 1.5%;
       font-size: 55px;
-      margin-bottom: 8%;
+      margin-bottom: 10%;
     }
 
     &__text {
-      margin-bottom: 8%;
+      margin-bottom: 9%;
+      font-size: 1.5em;
     }
 
     &__social-links {
-      margin-top: 4%;
+      margin-top: 5%;
       a {
-        font-size: 2em;
+        font-size: 2.5em;
         color: rgb(75, 13, 93);
         &:hover {
           color: rgb(175, 29, 97);
         }
 
         &:first-child {
-          margin-right: 4%;
+          margin-right: 10%;
         }
       }
     }
