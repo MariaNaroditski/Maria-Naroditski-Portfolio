@@ -11,8 +11,8 @@ function Home() {
             <div className="home-wrapper__col text-center">
                 <h1 className="home-wrapper__col__title">Full Stack Web Developer</h1>
                 <p className="home-wrapper__col__text lead">
-                    HTML | CSS / Bootstrap / Material-UI | ES6 |
-                    React | Redux | NodeJS | Express | MongoDB
+                    HTML | CSS / SCSS / Bootstrap | ES6 |
+                    React | Redux | NodeJS | Express.js | MongoDB
                 </p>
                 <a href="/resume" className="btn btn-outline-danger btn-lg home-wrapper__col__btn" role="button">Go To Resume</a>
                 <div className="home-wrapper__col__social-links">  

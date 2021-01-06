@@ -173,7 +173,6 @@ function Resume() {
                                     <ul>
                                         <li>SDH based communication – worked with ECI TELECOM products.</li>
                                         <li>IP Networking – worked with Juniper and Cisco equipment.</li>
-                                        <li>Landline phones – worked with telephone exchange and phones troubleshooting malfunctions.</li>
                                     </ul>
                                 </li>
                             </ul>
