@@ -179,40 +179,36 @@
   @media (max-width: 1260px) {
     &__col {
       flex: 100%;
-      max-width: 90%;
+      max-width: 100%;
       .profile_picture {
-        width: 94%;
-        margin-left: 11.5%;
-        margin-bottom: 3%;
+        margin: 0 0 3% 0;
       }
       .info {
         .my-name {
           text-align: center;
           font-size: 2.16em;
-          margin-bottom: 5%;
+          margin: 0 15% 6% 0;
         }
         .programmer {
           text-align: center;
-          margin-bottom: 5%;
+          margin: 0 16% 6% 0;
         }
 
         .looking-for {
-          width: 100%;
           font-size: 1.16em;
           text-align: left;
-          margin-bottom: 4.5%;
+          margin-bottom: 4%;
         }
         .title {
-          padding-top: 3.5%;
+          padding-top: 3%;
         }
         .contacts {
           margin-bottom: 2.5%;
           .email {
-            font-size: 1.3em;
+            font-size: 1.22em;
           }
           .social-links {
             margin-top: 0%;
-            margin-left: 3.5%;
           }
         }
         .qualifications,
