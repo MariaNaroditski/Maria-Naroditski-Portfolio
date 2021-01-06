@@ -7,11 +7,12 @@
   justify-content: center;
   margin: 1% 7.5%;
   background: white;
+  width: 85%;
   height: 33em;
 
   &__col {
     flex: 25%;
-    max-width: 40%;
+    max-width: 41%;
     margin-right: 5%;
     align-items: center;
 
@@ -66,6 +67,7 @@
       }
       &__text {
         font-size: 1.2em;
+        padding-bottom: 2%;
       }
     }
   }
