@@ -6,7 +6,7 @@ import ScrollArrow from "./ScrollArrow";
 function Resume() {
     return (
         <div className="resume-wrapper">  
-            <div className="resume-wrapper__col  resume-wrapper__left">
+            <div className="resume-wrapper__col resume-wrapper__left">
                 <img src={profile_picture} alt="avatar" className="profile_picture"/>
                 <div className="info">
                     <h2 className="my-name">Maria Naroditski</h2>
@@ -71,7 +71,7 @@ function Resume() {
                         <div className="col">
                             <p className="years">2015 - 2018</p>
                         </div>
-                        <div className="col">
+                        <div className="col col-p">
                             <p>Graduated from Holon Institute of Technology with B.Sc. in computer science.</p>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function Resume() {
                         <div className="col">
                             <p className="years">2009 - 2011</p>
                         </div>
-                        <div className="col">
+                        <div className="col col-p">
                             <p>Graduated from Shenkar College with Electronics Engineer diploma (within an army project 'Rakia').</p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function Resume() {
                         <div className="col">
                             <p className="years">2006 - 2009</p>
                         </div>
-                        <div className="col">
+                        <div className="col col-p">
                             <p>Graduated Ilan Ramon high-school with full diploma.</p>
                         </div>
                     </div>
@@ -97,32 +97,38 @@ function Resume() {
                 <div className="experience-wrapper">
                     <div className="experience-wrapper__row">
                         <div className="col">
-                            <p className="years">2020</p>
+                            <p className="years">2020 - 2021</p>
                         </div>
-                        <div className="col">
-                            <p className="col__p">Taking online courses on the following topics:</p>
+                        <div className="col col-p">
                             <ul>
-                                <li>HTML, CSS / SCSS, Bootstrap.</li>
-                                <li>ES6, React, Redux, Flux, Node.js, Express.js.</li>
+                                <li>
+                                    Taking online courses on the following topics:
+                                    <ul>
+                                        <li>HTML, CSS / SCSS, Bootstrap.</li>
+                                        <li>ES6, React, Redux, Flux, Node.js, Express.js.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    Build projects during those courses:
+                                    <ul>
+                                        <li>Application management using React-Flux.</li>
+                                        <li>Application management using React - Redux.</li>
+                                        <li>Build an application by using Node.js - Express.js, EJS and MongoDB.</li>
+                                    </ul>
+                                </li>
+                                 <li>Build this Portfolio Application.</li>
                             </ul>
-                            <p className="col__p">Build projects during those courses:</p>
-                            <ul>
-                                <li>Application management using React-Flux.</li>
-                                <li>Application management using React - Redux.</li>
-                                <li>Build an application by using Node.js - Express.js, EJS and MongoDB.</li>
-                            </ul>
-                            <p className="col__p">Build this Portfolio Application.</p>
                             <div className="projects-btn text-center">
-                            <a href="/projects" className="btn btn-danger btn-sm" role="button">See All Projects</a>
+                                <a href="/projects" className="btn btn-danger btn-sm" role="button">See All Projects</a>
                             </div> 
                         </div>
-                        </div>
+                    </div>
                     <div className="experience-wrapper__row">
                         <div className="col">
                             <p className="years">2019 - 2020</p>
                         </div>
-                        <div className="col">
-                            <p className="col__p">Student position in Elisra - Elbit System:</p>
+                        <div className="col col-p">
+                            <p>Student position in Elisra - Elbit System:</p>
                             <ul>
                                 <li>Project conversion ​​from Windows platform to Linux platform (C and C ++ languages).</li>
                                 <li>Work with CMAKE.</li>
@@ -133,8 +139,8 @@ function Resume() {
                         <div className="col">
                             <p className="years">2017 - 2018</p>
                         </div>
-                        <div className="col">
-                            <p className="col__p">Projects that done during academic studies:</p>
+                        <div className="col col-p">
+                            <p>Projects that done during academic studies:</p>
                             <ul>
                                 <li>Build a secure server side:
                                     <ul>
@@ -165,8 +171,8 @@ function Resume() {
                         <div className="col">
                             <p className="years">2011 - 2013</p>
                         </div>
-                        <div className="col">
-                        <p className="col__p">Mandatory military service:</p>
+                        <div className="col col-p">
+                            <p>Mandatory military service:</p>
                             <ul>
                                 <li>Full service in IDF as a field technician in "Eitanim Darom" under "Hoshen" unit.</li>
                                 <li>Work with versatile communication equipment in several fields:
@@ -182,8 +188,8 @@ function Resume() {
                         <div className="col">
                             <p className="years">2013 - 2015</p>
                         </div>
-                        <div className="col">
-                            <p className="col__p">Served in IDF Career Army as:</p>
+                        <div className="col col-p">
+                            <p>Served in IDF Career Army as:</p>
                             <ul>
                                 <li>Commander of technician department – operating 43 communication facilities while working with various factors and people.</li>
                                 <li>Provision of technical support to technicians and customers in the field.</li>

@@ -1,7 +1,7 @@
 .contacts-wrapper {
   background: white;
   margin: 1% 7.5%;
-  width: 85%;
+  height: 33em;
 
   &__looking-for {
     font-size: 1.5em;
@@ -19,7 +19,6 @@
     flex-grow: 1;
     align-items: flex-start;
     justify-content: center;
-    height: 25em;
 
     &__col {
       flex: 25%;
@@ -36,7 +35,7 @@
         margin-right: 5%;
 
         .title {
-          font-size: 50px;
+          font-size: 45px;
           margin-bottom: 5%;
           padding: 3%;
           border-bottom: 1px solid black;
@@ -46,18 +45,18 @@
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          font-size: 2em;
+          font-size: 1.8em;
           color: black;
-          margin-left: 1%;
+          margin-left: 5%;
 
           &__phone {
-            padding: 6%;
+            padding: 5%;
             .phone {
               margin-left: 14%;
             }
           }
           &__email {
-            padding: 6%;
+            padding: 5% 5% 2% 5%;
             .email {
               margin-left: 6%;
             }
@@ -65,8 +64,9 @@
         }
 
         .social-links {
+          margin-right: 1%;
           a {
-            font-size: 3em;
+            font-size: 2.6em;
             color: rgb(75, 13, 93);
             &:hover {
               color: rgb(175, 29, 97);

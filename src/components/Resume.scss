@@ -135,7 +135,7 @@
         .col {
           flex: 25%;
           max-width: 50%;
-          margin-top: 3%;
+          margin-top: 4%;
           .years {
             font-size: 1em;
             margin-left: 16%;
@@ -165,13 +165,18 @@
   }
 
   @media (max-width: 1284px) {
-    font-size: smaller;
-    .email {
-      font-size: 90%;
+    &__col {
+      .info {
+        .contacts {
+          .email {
+            font-size: 1.1em;
+          }
+        }
+      }
     }
   }
 
-  @media (max-width: 1195px) {
+  @media (max-width: 1260px) {
     &__col {
       flex: 100%;
       max-width: 90%;
@@ -220,7 +225,7 @@
       margin-bottom: 6%;
     }
     &__right {
-      width: 100%;
+      width: 96%;
       .experience-wrapper {
         &__row {
           display: flex;
@@ -241,17 +246,21 @@
               margin-bottom: 4%;
             }
           }
+          .col-p {
+            align-self: flex-start;
+            width: 100%;
+          }
         }
       }
       .army-p {
-        width: 100%;
+        width: 96%;
         text-align: start;
-        margin-bottom: 8%;
+        margin-bottom: 7%;
         margin-left: 1.5%;
       }
       .language {
         text-align: start;
-        margin-top: 6%;
+        margin-top: 3.5%;
         margin-bottom: 1%;
       }
     }
