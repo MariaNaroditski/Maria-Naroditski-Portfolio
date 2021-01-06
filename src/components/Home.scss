@@ -7,19 +7,15 @@
   justify-content: center;
   margin: 1% 7.5%;
   background: white;
-  width: 85%;
-  height: 33em;
 
   &__col {
     flex: 25%;
     max-width: 41%;
-    margin-right: 5%;
+    margin: 2.5% 5% 2.5% 0;
     align-items: center;
 
     &__profile {
-      width: 90%;
-      height: auto;
-      max-width: 100%;
+      max-width: 89%;
     }
 
     &__title {
@@ -55,7 +51,6 @@
       max-width: 90%;
       padding-bottom: 3%;
       margin-right: 0.4%;
-
       &__profile {
         width: 94%;
         padding-top: 8%;
