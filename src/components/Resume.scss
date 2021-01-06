@@ -1,0 +1,258 @@
+.resume-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin: 1% 7.5%;
+  width: 85%;
+
+  &__col {
+    flex: 25%;
+    max-width: 50%;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60%;
+    .profile_picture {
+      width: 80%;
+      height: auto;
+      max-width: 100%;
+      margin-left: 6%;
+      margin-bottom: 10%;
+    }
+    .info {
+      width: 83%;
+      margin-left: 13%;
+
+      .my-name {
+        padding-top: 0.6em;
+        font-size: 1.8em;
+        font-weight: 700;
+        margin-bottom: 15%;
+      }
+      .programmer {
+        margin-bottom: 15%;
+        color: grey;
+        font-size: 1.7em;
+      }
+
+      .looking-for {
+        margin-bottom: 20%;
+        font-size: 1em;
+      }
+
+      .title {
+        margin-top: 8%;
+        margin-bottom: 10%;
+        color: grey;
+        border-bottom: 1px solid purple;
+      }
+
+      .contacts {
+        margin-bottom: 20%;
+        letter-spacing: 1px;
+
+        h5 {
+          margin-top: 10%;
+          margin-left: 2%;
+        }
+        .phone {
+          font-size: 1.3em;
+          margin-bottom: 9%;
+          padding-left: 2%;
+        }
+        .email {
+          font-size: 1.17em;
+          padding-left: 2%;
+        }
+        .social-links {
+          text-align: center;
+          margin-right: 8%;
+          margin-top: 10%;
+          a {
+            font-size: 2.2em;
+            color: rgb(75, 13, 93);
+            &:hover {
+              color: rgb(175, 29, 97);
+            }
+
+            &:first-child {
+              margin-right: 20%;
+            }
+          }
+        }
+      }
+
+      .qualifications {
+        margin-top: 2%;
+        margin-bottom: 20%;
+        font-size: 1em;
+        li {
+          margin: 10px 4%;
+        }
+      }
+
+      .skills {
+        margin-top: 2%;
+        font-size: 1em;
+        li {
+          margin: 8px 4%;
+        }
+      }
+    }
+  }
+
+  &__right {
+    margin: 1.5%;
+    width: 72%;
+    background: #27221f;
+    color: white;
+    padding: 2em;
+
+    .title {
+      border-bottom: 1px solid #e22947;
+      border-top: 1px solid #e22947;
+      padding: 1.3%;
+      margin-top: 3%;
+    }
+
+    .experience-wrapper {
+      &__row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: flex-start;
+        .col {
+          flex: 25%;
+          max-width: 50%;
+          margin-top: 3%;
+          .years {
+            font-size: 1em;
+            margin-left: 16%;
+          }
+          .projects-btn {
+            padding: 1.5% 1% 2.5% 0;
+            margin-bottom: 2%;
+          }
+
+          li {
+            margin: 2.5%;
+          }
+        }
+      }
+    }
+
+    .army-p {
+      text-align: center;
+      margin-top: 3%;
+      font-weight: 500;
+    }
+
+    .language {
+      margin-top: 3.5%;
+    }
+  }
+
+  @media (max-width: 1284px) {
+    font-size: smaller;
+    .email {
+      font-size: 90%;
+    }
+  }
+
+  @media (max-width: 1195px) {
+    &__col {
+      flex: 100%;
+      max-width: 90%;
+      .profile_picture {
+        width: 94%;
+        margin: 8.5% 0% 0% 11.5%;
+      }
+      .info {
+        .my-name {
+          text-align: center;
+          font-size: 2.16em;
+          margin-bottom: 5%;
+        }
+        .programmer {
+          text-align: center;
+          margin-bottom: 5%;
+        }
+
+        .looking-for {
+          width: 100%;
+          font-size: 1.16em;
+          text-align: left;
+          margin-bottom: 4.5%;
+        }
+        .title {
+          padding-top: 3.5%;
+        }
+        .contacts {
+          margin-bottom: 2.5%;
+          .email {
+            font-size: 1.3em;
+          }
+          .social-links {
+            margin-top: 0%;
+            margin-left: 3.5%;
+          }
+        }
+        .qualifications,
+        .skills {
+          font-size: 1.2em;
+          margin-bottom: 8%;
+        }
+      }
+    }
+    &__left {
+      margin-bottom: 6%;
+    }
+    &__right {
+      width: 100%;
+      .experience-wrapper {
+        &__row {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          justify-content: center;
+          .col {
+            max-width: 100%;
+            margin-top: 3%;
+            .years {
+              width: 100%;
+              font-size: 1em;
+              padding-bottom: 5%;
+              border-bottom: 1px solid #e22947;
+              margin-bottom: 2.2%;
+            }
+            .projects-btn {
+              margin-bottom: 1.5%;
+            }
+          }
+        }
+      }
+      .army-p {
+        width: 100%;
+        text-align: start;
+        margin-bottom: 8%;
+        margin-left: 1.5%;
+      }
+      .language {
+        text-align: start;
+        margin-top: 6%;
+        margin-bottom: 1%;
+      }
+    }
+  }
+}

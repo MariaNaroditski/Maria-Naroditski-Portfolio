@@ -1,0 +1,176 @@
+.contacts-wrapper {
+  background: white;
+  margin: 1% 7.5%;
+  width: 85%;
+
+  &__looking-for {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.8%;
+    border-bottom: 1px solid peachpuff;
+    color: black;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: center;
+    height: 25em;
+
+    &__col {
+      flex: 25%;
+      max-width: 41%;
+
+      &__profile {
+        width: 71%;
+        height: auto;
+        max-width: 100%;
+      }
+
+      .info {
+        margin-bottom: 5%;
+        margin-right: 5%;
+
+        .title {
+          font-size: 50px;
+          margin-bottom: 5%;
+          padding: 3%;
+          border-bottom: 1px solid black;
+        }
+
+        .my_info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          font-size: 2em;
+          color: black;
+          margin-left: 1%;
+
+          &__phone {
+            padding: 6%;
+            .phone {
+              margin-left: 14%;
+            }
+          }
+          &__email {
+            padding: 6%;
+            .email {
+              margin-left: 6%;
+            }
+          }
+        }
+
+        .social-links {
+          a {
+            font-size: 3em;
+            color: rgb(75, 13, 93);
+            &:hover {
+              color: rgb(175, 29, 97);
+            }
+
+            &:first-child {
+              margin-right: 10%;
+            }
+          }
+        }
+      }
+    }
+
+    @media (max-width: 786px) {
+      height: 100%;
+      text-align: center;
+      &__col {
+        flex: 100%;
+        max-width: 80%;
+        padding: 3%;
+        margin-right: 0.5%;
+
+        &__profile {
+          width: 100%;
+          margin-top: 3%;
+        }
+
+        .info {
+          margin-bottom: 8%;
+          .email {
+            font-size: 0.66em;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1022px) {
+      &__col {
+        .info {
+          margin-bottom: 8%;
+          .email {
+            font-size: 0.85em;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 880px) {
+      &__col {
+        .info {
+          margin-bottom: 8%;
+          .email {
+            font-size: 0.65em;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 640px) {
+    &__looking-for {
+      width: 100%;
+      padding-top: 4%;
+      margin-bottom: 0.5%;
+      font-size: 1.1em;
+      text-align: center;
+      border: none;
+    }
+    &__info {
+      &__col {
+        padding-bottom: 0;
+        &__profile {
+          margin-left: 1%;
+          margin-top: 0;
+        }
+        .info {
+          .title {
+            text-align: start;
+            padding-top: 0%;
+            font-size: 2.2em;
+            padding-bottom: 4%;
+          }
+          .my_info {
+            &__phone {
+              padding: 0;
+              margin: 6% 0 6% 0;
+              font-size: 0.8em;
+              .phone {
+                font-size: 0.9em;
+              }
+            }
+            &__email {
+              padding: 0;
+              font-size: 0.78em;
+              .email {
+                font-size: 0.71em;
+              }
+            }
+          }
+          .social-links {
+            margin-left: 5%;
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}
