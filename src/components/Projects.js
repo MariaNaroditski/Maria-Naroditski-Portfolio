@@ -6,13 +6,13 @@ import ScrollArrow from "./ScrollArrow";
 function Projects() {
     return (
         <div className="main-projects-container">
-            <h1>Welcome To My Projects Page!</h1>
+            <h1>My Projects:</h1>
             <div className="projects-wrapper">
                 <div className="card projects-wrapper__card">
                     <div class="card-body">
                         <h3 className="card-title">Courses</h3>
                         <p className="card-text">
-                            Manipulation on courses and authors by using React and Redux store.
+                            Manipulating courses and authors through Redux store.
                         </p>
                         <a href="https://github.com/MariaNaroditski/Courses" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>

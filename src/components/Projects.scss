@@ -1,7 +1,7 @@
 .main-projects-container {
   text-align: center;
   h1 {
-    padding: 2%;
+    padding: 0.8%;
     color: blanchedalmond;
     border-bottom: 1px solid #f7b5c0;
   }
@@ -52,10 +52,18 @@
     }
 
     @media (max-width: 500px) {
+      h1 {
+        padding: 1.5;
+      }
       &__card {
         flex: 50%;
         max-width: 70%;
       }
+    }
+  }
+  @media (max-width: 500px) {
+    h1 {
+      padding: 2%;
     }
   }
 }

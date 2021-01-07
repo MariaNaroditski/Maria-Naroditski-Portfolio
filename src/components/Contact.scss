@@ -1,15 +1,19 @@
-.contacts-wrapper {
+.contact-wrapper {
   background: white;
   margin: 1% 7.5%;
   width: 85%;
 
   &__looking-for {
-    font-size: 1.5em;
+    font-size: 1.45em;
     font-weight: 600;
     text-align: center;
-    padding: 1.8%;
+    padding: 1.6% 0 0 0;
     border-bottom: 1px solid peachpuff;
     color: black;
+    .__weight {
+      font-weight: 700;
+      padding-top: 0.5%;
+    }
   }
 
   &__info {
@@ -22,19 +26,19 @@
 
     &__col {
       flex: 25%;
-      max-width: 41%;
+      max-width: 38%;
       margin: 0.2% 0% 1.8% 0;
       &__profile {
         max-width: 71%;
       }
 
       .info {
-        margin-right: 3%;
-
+        margin-right: 0;
+        padding-top: 1.8%;
         .title {
-          font-size: 50px;
-          margin-bottom: 5%;
-          padding: 3%;
+          font-size: 2.3em;
+          margin-bottom: 4.5%;
+          padding: 2% 0 3.5% 0;
           border-bottom: 1px solid black;
         }
 
@@ -42,18 +46,18 @@
           display: flex;
           flex-direction: column;
           align-items: flex-start;
-          font-size: 2em;
+          font-size: 1.85em;
           color: black;
-          margin-left: 1%;
+          margin-left: 5%;
 
           &__phone {
-            padding: 5%;
+            padding: 4.8%;
             .phone {
               margin-left: 14%;
             }
           }
           &__email {
-            padding: 5%;
+            padding: 4.8%;
             .email {
               margin-left: 6%;
             }
@@ -92,6 +96,7 @@
 
         .info {
           margin-bottom: 8%;
+
           .email {
             font-size: 0.66em;
           }
@@ -123,12 +128,16 @@
   }
   @media (max-width: 640px) {
     &__looking-for {
-      width: 100%;
-      padding-top: 4%;
-      margin-bottom: 0.5%;
+      max-width: 95%;
+      padding-top: 6%;
+      margin: 0 0 0 2.5%;
       font-size: 1.1em;
       text-align: center;
       border: none;
+      .__weight {
+        padding-top: 1.5%;
+        margin-bottom: 1%;
+      }
     }
     &__info {
       &__col {
@@ -139,15 +148,15 @@
         }
         .info {
           .title {
-            text-align: start;
+            text-align: center;
             padding-top: 0%;
-            font-size: 2.2em;
+            font-size: 1.45em;
             padding-bottom: 4%;
           }
           .my_info {
             &__phone {
               padding: 0;
-              margin: 6% 0 6% 0;
+              margin: 5% 0 6% 0;
               font-size: 0.8em;
               .phone {
                 font-size: 0.9em;
@@ -162,8 +171,12 @@
             }
           }
           .social-links {
-            margin-left: 5%;
-            font-size: 0.8em;
+            a {
+              font-size: 2em;
+              &:first-child {
+                margin-right: 25%;
+              }
+            }
           }
         }
       }

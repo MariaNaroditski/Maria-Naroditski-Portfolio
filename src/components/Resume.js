@@ -13,11 +13,13 @@ function Resume() {
                     <h4 className="programmer">Programmer</h4>
                     <p className="looking-for"> 
                         Highly organized, detail-oriented, creative and dependable 
-                        graduate with honors from the Holon Institute of Technology is looking for 
-                        a position as a Web Developer.
+                        graduate with honors from the Holon Institute of Technology. 
+                        <div className="__weight">Looking 
+                        for a position as a Web Developer.</div>
                     </p>
-                    <h4 className="title">Contacts</h4>
-                    <div className="contacts">
+
+                    <h4 className="title">Contact Information</h4>
+                    <div className="contact">
                         <h5>Phone:</h5>
                         <p className="phone">0545560378</p>
                         <h5>Email:</h5>
@@ -109,14 +111,14 @@ function Resume() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Build projects during those courses:
+                                    Projects built during those courses:
                                     <ul>
-                                        <li>Application management using <span className="store-type">React-Flux</span>.</li>
-                                        <li>Application management using <span className="store-type">React - Redux</span>.</li>
-                                        <li>Build an application by using Node.js - Express.js, EJS and MongoDB.</li>
+                                        <li>Application management using <span className="__weight">React-Flux</span>.</li>
+                                        <li>Application management using <span className="__weight">React - Redux</span>.</li>
+                                        <li>Application built with <span className="__weight">Node.js - Express.js, EJS and MongoDB</span>.</li>
                                     </ul>
                                 </li>
-                                 <li>Build this Portfolio Application.</li>
+                                 <li><span className="__weight">My Portfolio Application.</span></li>
                             </ul>
                             <div className="projects-btn text-center">
                                 <a href="/projects" className="btn btn-danger btn-sm" role="button">See All Projects</a>
@@ -140,9 +142,9 @@ function Resume() {
                             <p className="years">2017 - 2018</p>
                         </div>
                         <div className="col col-p">
-                            <p>Projects that done during academic studies:</p>
+                            <p>Projects that were done during academic studies:</p>
                             <ul>
-                                <li>Build a secure server side:
+                                <li>Built a secure server side:
                                     <ul>
                                         <li>XSS, CSRF, SQL Injection, Sessions Security and Cookies.</li>
                                         <li>ASP .NET - MVC.</li>
@@ -184,7 +186,7 @@ function Resume() {
                             <p className="years">2011 - 2013</p>
                         </div>
                         <div className="col col-p">
-                            <p>Mandatory military service:</p>
+                            <p>Military service:</p>
                             <ul>
                                 <li>Full service in IDF as a field technician in "Eitanim Darom" under "Hoshen" unit.</li>
                                 <li>Work with versatile communication equipment in several fields:
