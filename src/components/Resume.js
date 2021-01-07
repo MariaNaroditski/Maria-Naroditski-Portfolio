@@ -14,8 +14,9 @@ function Resume() {
                     <p className="looking-for"> 
                         Highly organized, detail-oriented, creative and dependable 
                         graduate with honors from the Holon Institute of Technology. 
-                        <div className="__weight">Looking 
-                        for a position as a Web Developer.</div>
+                    </p>
+                    <p className="__weight">Looking 
+                        for a position as a Web Developer.
                     </p>
 
                     <h4 className="title">Contact Information</h4>
@@ -103,7 +104,7 @@ function Resume() {
                         </div>
                         <div className="col">
                             <ul>
-                                <li><span className="__weight">This Portfolio Application.</span></li>
+                                <li className="__weight">This Portfolio Application.</li>
                                 <li>
                                     Taking online courses on the following topics:
                                     <ul>
@@ -133,7 +134,7 @@ function Resume() {
                         <div className="col col-p">
                             <p>Student position in Elisra - Elbit System:</p>
                             <ul>
-                                <li>Project conversion ​​from Windows platform to Linux platform (C and C ++ languages).</li>
+                                <li>Project conversion ​​from Windows platform to Linux platform (C and C++ languages).</li>
                                 <li>Work with CMAKE.</li>
                             </ul>
                         </div>

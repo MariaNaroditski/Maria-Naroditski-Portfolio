@@ -45,13 +45,14 @@
       }
 
       .looking-for {
-        margin-bottom: 12%;
+        margin-bottom: 4%;
         font-size: 1em;
-        .__weight {
-          padding-top: 3%;
-          font-weight: 700;
-          font-size: 1.25em;
-        }
+      }
+
+      .__weight {
+        font-weight: 700;
+        font-size: 1.25em;
+        margin-bottom: 12%;
       }
 
       .title {
@@ -203,11 +204,12 @@
         .looking-for {
           font-size: 1.16em;
           text-align: left;
-          margin-bottom: 4%;
-          .__weight {
-            max-width: 90%;
-            font-size: 1.1em;
-          }
+        }
+        .__weight {
+          margin-bottom: 0;
+          padding-top: 1%;
+          max-width: 90%;
+          font-size: 1.2em;
         }
         .title {
           max-width: 86%;
@@ -250,6 +252,9 @@
               padding-bottom: 5%;
               border-bottom: 1px solid #e22947;
               margin-bottom: 2.2%;
+            }
+            .__weight {
+              font-size: 0.996em;
             }
             .projects-btn {
               margin-bottom: 4%;

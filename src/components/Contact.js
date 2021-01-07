@@ -7,9 +7,11 @@ function Contact() {
         <div className="contact-wrapper"> 
             <p className="container contact-wrapper__looking-for">
                 Highly organized, detail-oriented, creative and dependable 
-                graduate with honors from the Holon Institute of Technology. <p className="__weight">Looking 
-                for a position as a Web Developer.</p>
-            </p>
+                graduate with honors from the Holon Institute of Technology. 
+             <span className="__weight">
+             Looking for a position as a Web Developer.
+            </span></p>
+      
          
             <div className="contact-wrapper__info">
                 <div className="contact-wrapper__info__col">

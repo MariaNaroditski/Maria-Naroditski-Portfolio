@@ -10,10 +10,11 @@
     padding: 1.6% 0 0 0;
     border-bottom: 1px solid peachpuff;
     color: black;
-    .__weight {
-      font-weight: 700;
-      padding-top: 0.5%;
-    }
+  }
+  .__weight {
+    display: block;
+    font-weight: 700;
+    padding: 0.5% 0;
   }
 
   &__info {
@@ -131,12 +132,12 @@
       max-width: 90%;
       padding: 4.5% 0 0 3.1%;
       margin: 0 0 0 2.5%;
-      font-size: 1.1em;
+      font-size: 1.08em;
       text-align: center;
       border: none;
       .__weight {
         padding-top: 1.5%;
-        margin-bottom: 1%;
+        margin-bottom: 0.3%;
       }
     }
     &__info {
@@ -155,7 +156,7 @@
           }
           .my_info {
             &__phone {
-              padding: 0;
+              padding: 1%;
               margin: 5% 0 6% 0;
               font-size: 0.8em;
               .phone {
@@ -163,7 +164,7 @@
               }
             }
             &__email {
-              padding: 0;
+              padding: 1%;
               font-size: 0.78em;
               .email {
                 font-size: 0.71em;
