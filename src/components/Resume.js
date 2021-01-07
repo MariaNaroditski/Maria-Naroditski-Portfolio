@@ -43,7 +43,7 @@ function Resume() {
                     </div>
                     <h4 className="title">Personal Qualifications</h4>
                     <ul className="qualifications">
-                        <li>Self learner.</li>
+                        <li>Self taught.</li>
                         <li>Highly organized.</li>
                         <li>Detail-oriented.</li>
                         <li>"Out Of Box" thinking.</li>
@@ -103,6 +103,7 @@ function Resume() {
                         </div>
                         <div className="col">
                             <ul>
+                                <li><span className="__weight">This Portfolio Application.</span></li>
                                 <li>
                                     Taking online courses on the following topics:
                                     <ul>
@@ -118,7 +119,7 @@ function Resume() {
                                         <li>Application built with <span className="__weight">Node.js - Express.js, EJS and MongoDB</span>.</li>
                                     </ul>
                                 </li>
-                                 <li><span className="__weight">My Portfolio Application.</span></li>
+                                 
                             </ul>
                             <div className="projects-btn text-center">
                                 <a href="/projects" className="btn btn-danger btn-sm" role="button">See All Projects</a>
@@ -202,9 +203,9 @@ function Resume() {
                 <p className="army-p">Military service demanded working under a lot of pressure, in teams and in front of many civilian companies and military units.</p>
                 <h2 className="title">Languages</h2>
                 <ul className="language">
-                    <li>Hebrew  - native language.</li>
-                    <li>Russian - native language.</li>
-                    <li>English - high level control.</li>
+                    <li>Hebrew  - Native language.</li>
+                    <li>Russian - Native language.</li>
+                    <li>English - High level.</li>
                 </ul>
                 <ScrollArrow />
             </div>  

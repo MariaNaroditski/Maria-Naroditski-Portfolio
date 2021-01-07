@@ -5,7 +5,7 @@
 
   &__looking-for {
     font-size: 1.45em;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
     padding: 1.6% 0 0 0;
     border-bottom: 1px solid peachpuff;
@@ -128,8 +128,8 @@
   }
   @media (max-width: 640px) {
     &__looking-for {
-      max-width: 95%;
-      padding-top: 6%;
+      max-width: 90%;
+      padding: 4.5% 0 0 3.1%;
       margin: 0 0 0 2.5%;
       font-size: 1.1em;
       text-align: center;
