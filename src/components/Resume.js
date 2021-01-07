@@ -99,7 +99,7 @@ function Resume() {
                         <div className="col">
                             <p className="years">2020 - 2021</p>
                         </div>
-                        <div className="col col-p">
+                        <div className="col">
                             <ul>
                                 <li>
                                     Taking online courses on the following topics:
@@ -111,8 +111,8 @@ function Resume() {
                                 <li>
                                     Build projects during those courses:
                                     <ul>
-                                        <li>Application management using React-Flux.</li>
-                                        <li>Application management using React - Redux.</li>
+                                        <li>Application management using <span className="store-type">React-Flux</span>.</li>
+                                        <li>Application management using <span className="store-type">React - Redux</span>.</li>
                                         <li>Build an application by using Node.js - Express.js, EJS and MongoDB.</li>
                                     </ul>
                                 </li>
@@ -144,8 +144,8 @@ function Resume() {
                             <ul>
                                 <li>Build a secure server side:
                                     <ul>
-                                        <li>XSS, CSRF, Sql Injection, Sessions Security and Cookies.</li>
-                                        <li>ASP.NET - MVC.</li>
+                                        <li>XSS, CSRF, SQL Injection, Sessions Security and Cookies.</li>
+                                        <li>ASP .NET - MVC.</li>
                                     </ul>
                                 </li>
                                 <li>Network Security Project (PT):
@@ -169,6 +169,18 @@ function Resume() {
                 <div className="experience-wrapper">
                     <div className="experience-wrapper__row">
                         <div className="col">
+                            <p className="years">2013 - 2015</p>
+                        </div>
+                        <div className="col col-p">
+                            <p>Served in IDF Career Army as:</p>
+                            <ul>
+                                <li>Commander of technician department – operating 43 communication facilities while working with various factors and people.</li>
+                                <li>Provision of technical support to technicians and customers in the field.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="experience-wrapper__row">
+                        <div className="col">
                             <p className="years">2011 - 2013</p>
                         </div>
                         <div className="col col-p">
@@ -184,24 +196,12 @@ function Resume() {
                             </ul>
                         </div>
                     </div>
-                    <div className="experience-wrapper__row">
-                        <div className="col">
-                            <p className="years">2013 - 2015</p>
-                        </div>
-                        <div className="col col-p">
-                            <p>Served in IDF Career Army as:</p>
-                            <ul>
-                                <li>Commander of technician department – operating 43 communication facilities while working with various factors and people.</li>
-                                <li>Provision of technical support to technicians and customers in the field.</li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
                 <p className="army-p">Military service demanded working under a lot of pressure, in teams and in front of many civilian companies and military units.</p>
                 <h2 className="title">Languages</h2>
                 <ul className="language">
-                    <li>Hebrew  - native language</li>
-                    <li>Russian - native language</li>
+                    <li>Hebrew  - native language.</li>
+                    <li>Russian - native language.</li>
                     <li>English - high level control.</li>
                 </ul>
                 <ScrollArrow />

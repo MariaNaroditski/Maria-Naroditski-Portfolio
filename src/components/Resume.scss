@@ -140,6 +140,9 @@
             font-size: 1em;
             margin-left: 16%;
           }
+          .store-type {
+            font-weight: 600;
+          }
           .projects-btn {
             padding: 3% 1% 2% 0;
             margin-bottom: 2%;
@@ -200,10 +203,10 @@
           margin-bottom: 4%;
         }
         .title {
-          padding-top: 3%;
+          padding-top: 3.5%;
         }
         .contacts {
-          margin-bottom: 2.5%;
+          margin-bottom: 2%;
           .email {
             font-size: 1.1em;
           }
@@ -223,6 +226,7 @@
     }
     &__right {
       width: 96%;
+      margin-left: 2%;
       .experience-wrapper {
         &__row {
           display: flex;
