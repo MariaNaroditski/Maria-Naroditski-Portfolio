@@ -3,8 +3,8 @@ import './Header.scss';
 
 function Header() {
     return (
-        <div className="header-container">
-            <nav className="navbar sticky-top navbar-expand-lg navbar-dark header-container__nav">
+        <div className="header-container sticky-top ">
+            <nav className="navbar navbar-expand-lg navbar-dark header-container__nav">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">Maria Naroditski</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,7 +1,5 @@
 import React from 'react';
 import './Projects.scss';
-import ScrollArrow from "./ScrollArrow";
-
 
 function Projects() {
     return (
@@ -9,7 +7,7 @@ function Projects() {
             <h1>My Projects:</h1>
             <div className="projects-wrapper">
                 <div className="card projects-wrapper__card">
-                    <div class="card-body">
+                    <div className="card-body">
                         <h3 className="card-title">Courses</h3>
                         <p className="card-text">
                             Manipulating courses and authors through Redux store.
@@ -61,9 +59,8 @@ function Projects() {
                         </p>
                         <a href="https://github.com/MariaNaroditski/Color-Game" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>
-                </div>       
+                </div>
             </div>
-            <ScrollArrow />
         </div>
     )
 }

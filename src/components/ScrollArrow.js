@@ -8,9 +8,9 @@ const ScrollArrow = () =>{
   const [showScroll, setShowScroll] = useState(false)
 
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 50){
+    if (!showScroll && window.pageYOffset > 200){
       setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 50){
+    } else if (showScroll && window.pageYOffset <= 200){
       setShowScroll(false)
     }
   };
@@ -22,7 +22,7 @@ const ScrollArrow = () =>{
   window.addEventListener('scroll', checkScrollTop)
 
   return (
-        <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{height: 40, display: showScroll ? 'flex' : 'none'}}/>
+        <FaArrowCircleUp className="scrollTop" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'}}/>
   );
 }
 
