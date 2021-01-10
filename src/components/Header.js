@@ -3,7 +3,7 @@ import './Header.scss';
 
 function Header() {
     return (
-        <div className="header-container sticky-top ">
+        <div className="header-container">
             <nav className="navbar navbar-expand-lg navbar-dark header-container__nav">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">Maria Naroditski</a>

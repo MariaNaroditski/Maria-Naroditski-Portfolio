@@ -53,17 +53,12 @@
 
     @media (max-width: 500px) {
       h1 {
-        padding: 1.5;
+        padding: 2%;
       }
       &__card {
         flex: 50%;
         max-width: 70%;
       }
-    }
-  }
-  @media (max-width: 500px) {
-    h1 {
-      padding: 2%;
     }
   }
 }

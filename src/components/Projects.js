@@ -1,5 +1,7 @@
 import React from 'react';
 import './Projects.scss';
+import ScrollArrow from "./ScrollArrow";
+
 
 function Projects() {
     return (
@@ -60,6 +62,9 @@ function Projects() {
                         <a href="https://github.com/MariaNaroditski/Color-Game" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>
                 </div>
+            </div>
+            <div className="scroll-arrow">
+                <ScrollArrow />
             </div>
         </div>
     )
