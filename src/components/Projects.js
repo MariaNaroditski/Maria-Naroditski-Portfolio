@@ -8,15 +8,36 @@ function Projects() {
         <div className="main-projects-container">
             <h1>My Projects:</h1>
             <div className="projects-wrapper">
+            <div className="card projects-wrapper__card">
+                    <div className="card-body">
+                        <h3 className="card-title">This Portfolio</h3>
+                        <p className="card-text">
+                            Look at the code of this portfolio project!
+                        </p>
+                        <p className="card-text">
+                            Built with React.
+                        </p>
+                        <a href="https://github.com/MariaNaroditski/Maria-Naroditski-Portfolio" className="btn btn-outline-danger">See The Code On Git</a>
+                    </div>
+                </div>
                 <div className="card projects-wrapper__card">
                     <div className="card-body">
-                        <h3 className="card-title">Courses</h3>
+                        <h3 className="card-title">Courses (Redux)</h3>
                         <p className="card-text">
                             Manipulating courses and authors through Redux store.
                         </p>
-                        <a href="https://github.com/MariaNaroditski/Courses" className="btn btn-outline-danger">See The Code On Git</a>
+                        <a href="https://github.com/MariaNaroditski/Courses-React-Redux" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>
                 </div>  
+                <div className="card projects-wrapper__card">
+                    <div className="card-body">
+                        <h3 className="card-title">Courses (Flux)</h3>
+                        <p className="card-text">
+                            Manipulating courses and authors through Flux store.
+                        </p>
+                        <a href="https://github.com/MariaNaroditski/Courses-React-Flux" className="btn btn-outline-danger">See The Code On Git</a>
+                    </div>
+                </div> 
                 <div className="card projects-wrapper__card">
                     <div class="card-body">
                         <h3 className="card-title">Calculator</h3>
@@ -24,6 +45,18 @@ function Projects() {
                             Smart calculator built with React.
                         </p>
                         <a href="https://github.com/MariaNaroditski/Calculator" className="btn btn-outline-danger">See The Code On Git</a>
+                    </div>
+                </div>
+                <div className="card projects-wrapper__card">
+                    <div class="card-body">
+                        <h3 className="card-title">Yelp Camp</h3>
+                        <p className="card-text">
+                            A application that presents information of campgrounds.
+                        </p>
+                        <p className="card-text">
+                            Built with Node.js - Express.js, EJS and MongoDB.
+                        </p>
+                        <a href="https://github.com/MariaNaroditski/yelp-camp" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>
                 </div>
                 <div className="card projects-wrapper__card">
@@ -62,10 +95,20 @@ function Projects() {
                         <a href="https://github.com/MariaNaroditski/Color-Game" className="btn btn-outline-danger">See The Code On Git</a>
                     </div>
                 </div>
+                <div className="card projects-wrapper__card">
+                    <div class="card-body">
+                        <h3 className="card-title">Todo List</h3>
+                        <p className="card-text">
+                            You can add and delete products on this todo list!
+                        </p>
+                        <p className="card-text">
+                            Built with HTML, CSS and jQuery.
+                        </p>
+                        <a href="https://github.com/MariaNaroditski/Todo-List" className="btn btn-outline-danger">See The Code On Git</a>
+                    </div>
+                </div>
             </div>
-            <div className="scroll-arrow">
                 <ScrollArrow />
-            </div>
         </div>
     )
 }
