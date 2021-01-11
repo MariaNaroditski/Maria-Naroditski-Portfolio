@@ -51,7 +51,7 @@ function Projects() {
                     <div class="card-body">
                         <h3 className="card-title">Yelp Camp</h3>
                         <p className="card-text">
-                            A application that presents information of campgrounds.
+                            Application that presents information of campgrounds.
                         </p>
                         <p className="card-text">
                             Built with Node.js - Express.js, EJS and MongoDB.
@@ -87,7 +87,7 @@ function Projects() {
                     <div class="card-body">
                         <h3 className="card-title">Color - Guessing Game</h3>
                         <p className="card-text">
-                            Guess the color based on rgb numbers!
+                            Guess the color based on RGB numbers!
                         </p>
                         <p className="card-text">
                             Built with javascript.
