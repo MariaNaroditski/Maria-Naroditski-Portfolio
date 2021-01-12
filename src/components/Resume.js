@@ -4,6 +4,7 @@ import profile_picture from "../assets/profile_picture.png";
 import ScrollArrow from "./ScrollArrow";
 import { IoMdCopy } from 'react-icons/io';
 import {AiOutlineFilePdf } from 'react-icons/ai';
+import my_resume from '../assets/Maria_Naroditski_CV.pdf';
 
 function Resume() {
     const copyText = (value) => {
@@ -86,7 +87,7 @@ function Resume() {
             </div>
             <div className="resume-wrapper-col resume-wrapper__right ">   
                 <div>
-                    <a href="../../assets/Maria_Naroditski_CV.pdf" download title="Download Resume">
+                    <a href={my_resume} download title="Download Resume">
                         <AiOutlineFilePdf className="download-resume"/>
                     </a>
                     <span className="tooltip">Download Resume</span> 
