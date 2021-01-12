@@ -143,7 +143,23 @@
     background: #27221f;
     color: white;
     padding: 2em;
+    a {
+      .download-resume {
+        margin: 0 0 0 45%;
+        font-size: 2em;
+        color: #e22947;
 
+        &:hover {
+          color: white;
+        }
+      }
+    }
+    .tooltip {
+      display: none;
+    }
+    a:hover + .tooltip {
+      display: block;
+    }
     .title {
       border-bottom: 1px solid #e22947;
       border-top: 1px solid #e22947;
@@ -260,6 +276,13 @@
     &__right {
       width: 96%;
       margin-left: 2%;
+      margin-top: 0;
+      a {
+        .download-resume {
+          margin-bottom: 5%;
+          font-size: 1.6em;
+        }
+      }
       .experience-wrapper {
         &__row {
           display: flex;

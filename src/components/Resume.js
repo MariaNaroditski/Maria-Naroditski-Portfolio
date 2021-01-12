@@ -3,6 +3,7 @@ import './Resume.scss';
 import profile_picture from "../assets/profile_picture.png";
 import ScrollArrow from "./ScrollArrow";
 import { IoMdCopy } from 'react-icons/io';
+import {AiOutlineFilePdf } from 'react-icons/ai';
 
 function Resume() {
     const copyText = (value) => {
@@ -83,7 +84,13 @@ function Resume() {
                     </ul>
                 </div>
             </div>
-            <div className="resume-wrapper-col resume-wrapper__right ">
+            <div className="resume-wrapper-col resume-wrapper__right ">   
+                <div>
+                    <a href="../../assets/Maria_Naroditski_CV.pdf" download title="Download Resume">
+                        <AiOutlineFilePdf className="download-resume"/>
+                    </a>
+                    <span className="tooltip">Download Resume</span> 
+                </div>                            
                 {/* Education */}
                 <h2 className="title">Education</h2>
                 <div className="experience-wrapper">
