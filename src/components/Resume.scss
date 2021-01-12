@@ -76,15 +76,38 @@
           font-size: 1.3em;
           margin-bottom: 9%;
           padding-left: 2%;
+          .copy-phone-number {
+            font-size: 0.8em;
+            margin-left: 3%;
+            &:hover {
+              cursor: pointer;
+              font-size: 1em;
+            }
+          }
         }
         .email {
-          font-size: 1.17em;
-          padding-left: 2%;
+          a {
+            font-size: 1.1em;
+            padding-left: 2%;
+            text-decoration: none;
+          }
+
+          .copy-email {
+            .email-icon {
+              font-size: 1.11em;
+              margin-left: 3%;
+              &:hover {
+                cursor: pointer;
+                font-size: 1.3em;
+              }
+            }
+          }
         }
+
         .social-links {
           text-align: center;
           margin-right: 8%;
-          margin-top: 10%;
+          margin-top: 5%;
           a {
             font-size: 2.2em;
             color: rgb(75, 13, 93);
@@ -171,18 +194,6 @@
     }
   }
 
-  @media (max-width: 1284px) {
-    &__col {
-      .info {
-        .contact {
-          .email {
-            font-size: 1.1em;
-          }
-        }
-      }
-    }
-  }
-
   @media (max-width: 1260px) {
     &__col {
       flex: 100%;
@@ -202,6 +213,7 @@
         }
 
         .looking-for {
+          max-width: 94%;
           font-size: 1.16em;
           text-align: left;
         }
@@ -217,11 +229,22 @@
         }
         .contact {
           margin-bottom: 2%;
+          .phone {
+            .copy-phone-number {
+              margin-left: 2.5%;
+            }
+          }
           .email {
-            font-size: 1.1em;
+            a {
+              font-size: 1em;
+            }
+            .copy-email {
+              display: inline;
+              margin-left: 0;
+            }
           }
           .social-links {
-            margin-top: 0%;
+            margin-top: 5%;
           }
         }
         .qualifications,

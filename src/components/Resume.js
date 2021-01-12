@@ -2,8 +2,18 @@ import React from 'react';
 import './Resume.scss';
 import profile_picture from "../assets/profile_picture.png";
 import ScrollArrow from "./ScrollArrow";
+import { IoMdCopy } from 'react-icons/io';
 
 function Resume() {
+    const copyText = (value) => {
+        const elem = document.createElement('textarea');
+        elem.value = value;
+        document.body.appendChild(elem);
+        elem.select();
+        document.execCommand('copy');
+        document.body.removeChild(elem);
+    }
+
     return (
         <div className="resume-wrapper">  
             <div className="resume-wrapper__col resume-wrapper__left">
@@ -22,9 +32,16 @@ function Resume() {
                     <h4 className="title">Contact Information</h4>
                     <div className="contact">
                         <h5>Phone:</h5>
-                        <p className="phone">0545560378</p>
+                        <p className="phone" id="phone"> 0545560378 
+                            <IoMdCopy className="copy-phone-number" onClick={() => copyText("0545560378")} />
+                        </p>
                         <h5>Email:</h5>
-                        <p className="email"> marianaro159@gmail.com</p>
+                        <div className="email">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marianaro159@gmail.com" target="_blank" rel="noopener noreferrer">marianaro159@gmail.com</a>
+                            <p className="copy-email">
+                                <IoMdCopy className="email-icon" onClick={() => copyText("marianaro159@gmail.com")} />
+                            </p>
+                        </div>
                         <div className="social-links">  
                             <a
                                 href="https://www.linkedin.com/in/maria-naroditski"
