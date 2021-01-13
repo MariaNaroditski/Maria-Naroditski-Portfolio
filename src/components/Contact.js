@@ -31,7 +31,9 @@ function Contact() {
                         <h3 className="title">Contact Information:</h3>
                         <div className="info__phone">
                             <i className="fa fa-phone-square" aria-hidden="true"></i>                 
-                            <span className="phone" id="phone"> 0545560378 </span>
+                            <span className="phone" id="phone"> 0545560378 
+                                <IoMdCopy className="copy-phone-number" onClick={() => copyText("0545560378")} />
+                            </span>
                         </div>
                         <div className="info__email">
                             <i className="fa fa-envelope" aria-hidden="true" ></i>
