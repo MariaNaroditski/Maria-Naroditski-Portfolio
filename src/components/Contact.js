@@ -32,14 +32,14 @@ function Contact() {
                         <div className="info__phone">
                             <i className="fa fa-phone-square" aria-hidden="true"></i>                 
                             <span className="phone" id="phone"> 0545560378 
-                                <IoMdCopy className="copy-phone-number" onClick={() => copyText("0545560378")} />
+                                <IoMdCopy className="copy-phone-number" title="copy" onClick={() => copyText("0545560378")} />
                             </span>
                         </div>
                         <div className="info__email">
                             <i className="fa fa-envelope" aria-hidden="true" ></i>
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marianaro159@gmail.com" target="_blank" rel="noopener noreferrer">marianaro159@gmail.com</a>
                             <span className="copy-email">
-                                <IoMdCopy className="email-icon" onClick={() => copyText("marianaro159@gmail.com")} />
+                                <IoMdCopy className="email-icon" title="copy" onClick={() => copyText("marianaro159@gmail.com")} />
                             </span>
                         </div>
                         <div className="social-links">  

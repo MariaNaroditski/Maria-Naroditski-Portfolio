@@ -3,7 +3,7 @@ import './Resume.scss';
 import profile_picture from "../assets/profile_picture.png";
 import ScrollArrow from "./ScrollArrow";
 import { IoMdCopy } from 'react-icons/io';
-import {AiOutlineFilePdf } from 'react-icons/ai';
+import {AiOutlineFilePdf, AiOutlineDownload } from 'react-icons/ai';
 import my_resume from '../assets/Maria_Naroditski_CV.pdf';
 
 function Resume() {
@@ -35,13 +35,13 @@ function Resume() {
                     <div className="contact">
                         <h5>Phone:</h5>
                         <p className="phone" id="phone"> 0545560378 
-                            <IoMdCopy className="copy-phone-number" onClick={() => copyText("0545560378")} />
+                            <IoMdCopy className="copy-phone-number" title="copy" onClick={() => copyText("0545560378")} />
                         </p>
                         <h5>Email:</h5>
                         <div className="email">
                             <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=marianaro159@gmail.com" target="_blank" rel="noopener noreferrer">marianaro159@gmail.com</a>
                             <p className="copy-email">
-                                <IoMdCopy className="email-icon" onClick={() => copyText("marianaro159@gmail.com")} />
+                                <IoMdCopy className="email-icon" title="copy" onClick={() => copyText("marianaro159@gmail.com")} />
                             </p>
                         </div>
                         <div className="social-links">  
@@ -89,6 +89,7 @@ function Resume() {
                 <div>
                     <a href={my_resume} download title="Download Resume">
                         <AiOutlineFilePdf className="download-resume"/>
+                        <AiOutlineDownload className="download"/>
                     </a>
                     <span className="tooltip">Download Resume</span> 
                 </div>                            
